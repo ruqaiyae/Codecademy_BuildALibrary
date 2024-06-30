@@ -95,14 +95,13 @@ class CD extends Media {
   }
 }
 
-const cd = new CD('M&R', 'MDagina');
-cd.songsList('Ruks');
-cd.songsList('Mufs');
-cd.songsList('Bats');
-cd.songsList('Chuns');
-cd.songsList('Moti');
+const cd = new CD('Arrival', 'ABBA');
+cd.songsList('Dancing Queen');
+cd.songsList('My Love, My Life');
+cd.songsList('Money, Money, Money');
+cd.songsList('Why Did It Have to Be Me');
+cd.songsList('Knowing Me, Knowing You');
 
 cd.shuffle();
 
-console.log(cd.songs);
 console.log(cd.songs);
